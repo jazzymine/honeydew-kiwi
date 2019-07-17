@@ -3,22 +3,32 @@ body {
 }
 
 #fade-in { /* for fade in text and sorts*/
-    -webkit-animation: fadein 3s;
+    -webkit-animation: fadein 2.5s;
 }
 
 @-webkit-keyframes fadein {
   from {opacity:0;}
   to {opacity: 1;}
 }
-
 .title {
   text-align: center;
   font-size: 55px;
   transform: (0%,10%);
 }
 
+.bobabanner {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  overflow: hidden;
+  width: 100%;
+}
+
+
 .heading { /*title headings */
-  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: red;
+  font-size: 20px;
 }
 
 .semidescription { /*large sized words but not titles*/
@@ -26,11 +36,13 @@ body {
 }
 
 .details { /*detail descriptions*/
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .toppings {
-  margin-top: 350px;
+  margin-top: 150px;
+  padding-top: 3vh;
+  text-align: center;
 }
 
 .video {
@@ -38,7 +50,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: ;
+  margin-top: 900px;
 }
 
 .tierlist {
@@ -46,7 +58,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, 120%);
-  margin-top: 600px;
+  margin-top: 620px;
 }
 
 .tierlisttext {
@@ -54,3 +66,4 @@ body {
   font-size: 40px;
   transform: translate(0%, 900%);
 }
+
